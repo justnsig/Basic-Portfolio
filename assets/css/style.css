@@ -43,14 +43,8 @@ p a {
     border-bottom: 1px solid gray;
 }
 
-image {
-    z-index: 5;
-    margin-right: 7px;
-    float: left;
-    border: 1px solid black;
-    height: 150px;
-    width: 135px;
-}
+
+
 
 .main {
     margin-top: 100px;
@@ -264,6 +258,11 @@ image {
     top: 5px;
 }
 
+.buisness {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
 
 
 
