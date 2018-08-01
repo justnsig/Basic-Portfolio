@@ -13,27 +13,35 @@ p a {
 }
 
 #yourname {
-    z-index: 20;
+    position: relative;
+    left: 250px;
+    float: left;
     background-color: #4aaaa5;
-    margin: 0;
+    padding-top: 22px;
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 250px;
-    width: 200px;
-    height: 60px;
-    float: left;
-    padding-top: 8px;
+    height: 67px;
     font-size: 30px;
+    width: 180px;
 }
 
 .header {
-    padding-top: 2px;
+    position: relative;
+    
     margin: 0;
     height: 70px;
     width: 100%;
     border-bottom: 1px solid black;
     background-color: #ffffff;
+}
+
+.link {
+   position: relative;
+   left: 850px;
+   top: 50px;
+
+
 }
 
 .aboutme {
@@ -72,13 +80,7 @@ p a {
     float: right;
 }
 
-.link {
-    color: black;
-    padding-right: 5px;
-    padding-top: 20px;
-    float: right;
-    margin-right: 300px;
-}
+
 
 .text {
     padding-top: 10px;
@@ -89,11 +91,11 @@ p a {
 
 .contactinfo {
     background-color: #ffffff;
-    z-index: -2;
+    
     margin-top: 100px;
     margin-left: 250px;
     margin-right: 175px;
-    height: 400px;
+    height: 300px;
     width: 960px;
     border: 1px solid lightgray;
     margin-bottom: 80px;
@@ -164,9 +166,10 @@ p a {
 }
 
 .display1 {
-    z-index: 1;
-    float: left;
-    margin: 10px;
+    position: absolute;
+    left: 592px;
+    margin: 4px;
+    top: 192px;
     text-align: center;
     width: 30%;
     padding: 30px;
@@ -176,8 +179,10 @@ p a {
 }
 
 .display2 {
-    float: left;
-    margin: 10px;
+    position: absolute;
+    left: 0;
+    margin: 4px;
+    top: 192px;
     text-align: center;
     width: 30%;
     padding: 30px;
@@ -206,23 +211,22 @@ p a {
     border: 1px solid black;
     background-color: #4aaaa5;
     color: #ffffff;
+   
+    
 }
 
 .display5 {
-    z-index: 3;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    position: relative;
-    left: 4px;
-    height: 60px;
+   
+    position: absolute;
+    left: 296px;
+    margin: 4px;
+    top: 192px;
     text-align: center;
     width: 30%;
+    padding: 30px;
     border: 1px solid black;
-    float: left; 
-}
-
-.showoff {
-    
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
 
 .top1 {
@@ -235,23 +239,26 @@ p a {
 }
 
 .rock {
-    z-index: -2;
-    position: relative;
-    left: 0;
-    z-index: 2;
+   float: left;
+  
     width: 30%;
     margin: 4px;
     height: 215px;
-   float: left;
 }
 
 .trivia {
-    position: relative;
-    left: 0;
     float: left;
     width: 30%;
     margin: 4px;
     height: 215px;
+}
+
+.hangman {
+    float: left;
+    width: 30%;
+    margin: 4px;
+    height: 215px;
+    border: 1px solid black;
 }
 
 .buisness {
@@ -260,6 +267,21 @@ p a {
     float: left;
 }
 
+.full {
+    position: relative;
+    background-color: #ffffff; 
+    height: 400px;
+    margin-left: 16.5%;
+    margin-right: 50%;
+    margin-top: 100px;
+    width: 960px;
+    border: 1px solid black;
+    
+}
+
+.top1 {
+    position: relative;
+}
 
 
 
