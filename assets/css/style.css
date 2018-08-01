@@ -27,8 +27,8 @@ p a {
 }
 
 .header {
+    overflow: hidden;
     position: relative;
-    
     margin: 0;
     height: 70px;
     width: 100%;
@@ -40,8 +40,6 @@ p a {
    position: relative;
    left: 850px;
    top: 50px;
-
-
 }
 
 .aboutme {
