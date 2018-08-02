@@ -78,8 +78,6 @@ p a {
     float: right;
 }
 
-
-
 .text {
     padding-top: 10px;
     padding-right: 8px;
@@ -89,7 +87,6 @@ p a {
 
 .contactinfo {
     background-color: #ffffff;
-    
     margin-top: 100px;
     margin-left: 250px;
     margin-right: 175px;
@@ -105,6 +102,7 @@ p a {
 }
 
 .johnsmith {
+    border: none;
     padding-top: 2px;
     height: 25px;
     border-top: 1px solid lightgray;
@@ -117,6 +115,7 @@ p a {
 }
 
 .example {
+    border: none;
     height: 25px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
@@ -128,6 +127,8 @@ p a {
 }
 
 .box {
+    border: none;
+    width: 98%;
     height: 110px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
