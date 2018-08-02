@@ -166,12 +166,12 @@ p a {
 
 .display1 {
     position: absolute;
-    left: 592px;
-    margin: 4px;
-    top: 192px;
+    left: 639px;
+    margin: 6px;
+    top: 157px;
     text-align: center;
-    width: 30%;
-    padding: 30px;
+    width: 32%;
+    padding: 15px;
     border: 1px solid black;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -180,33 +180,36 @@ p a {
 .display2 {
     position: absolute;
     left: 0;
-    margin: 4px;
-    top: 192px;
+    margin: 6px;
+    top: 157px;
     text-align: center;
-    width: 30%;
-    padding: 30px;
+    width: 32%;
+    padding: 15px;
     border: 1px solid black;
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
 .display3 {
-    float: left;
-    margin: 10px;
+    position: absolute;
+    left: 639px;
+    bottom: 0px;
+    margin: 6px;
     text-align: center;
-    width: 30%;
-    padding: 30px;
+    width: 32%;
+    padding: 15px;
     border: 1px solid black;
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
 .display4{
-    float: left;
-    margin: 10px;
+    position: absolute;
+    bottom: 0px;
+    margin: 6px;
     text-align: center;
-    width: 30%;
-    padding: 30px;
+    width: 32%;
+    padding: 15px;
     border: 1px solid black;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -217,12 +220,12 @@ p a {
 .display5 {
    
     position: absolute;
-    left: 296px;
-    margin: 4px;
-    top: 192px;
+    left: 316px;
+    top: 157px;
+    margin: 6px;
     text-align: center;
-    width: 30%;
-    padding: 30px;
+    width: 32.5%;
+    padding: 15px;
     border: 1px solid black;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -238,25 +241,45 @@ p a {
 }
 
 .rock {
-   float: left;
-  
-    width: 30%;
+   float: left; 
+    width: 32.5%;
     margin: 4px;
-    height: 215px;
+    height: 150px;
 }
 
 .trivia {
     float: left;
-    width: 30%;
-    margin: 4px;
-    height: 215px;
+    width: 32%;
+    margin: 6px;
+    height: 150px;
 }
 
 .hangman {
-    float: left;
-    width: 30%;
-    margin: 4px;
-    height: 215px;
+    float: right;
+    width: 32%;
+    margin: 6px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.rpg {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 32%;
+    margin: 6px;
+    margin-right: 6px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.Rutgers {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 32%;
+    margin: 6px;
+    height: 150px;
     border: 1px solid black;
 }
 
