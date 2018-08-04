@@ -311,5 +311,11 @@ p a {
     position: relative;
 }
 
+@media screen and (max-width: 768px) {
 
+body {
+    background-color: #666666;
+}
 
+}
+    
