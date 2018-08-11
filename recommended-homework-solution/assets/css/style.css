@@ -216,8 +216,30 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 640px) {
+  .info  { float: left; }
+  .auth-image {
+    width: auto;
+    height: auto;
+    width: 100%;
+  }
+  nav {
+    margin-top: 25px;
+    padding-left: 35px;
+    float: left;
+  }
 
-
-@media only screen and (max-width: 768px) {
-  
+  #logo {
+    text-align: center;
+    width: 377px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
 }
